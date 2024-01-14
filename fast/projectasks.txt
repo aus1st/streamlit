@@ -1,0 +1,18 @@
+api endpoints:
+	GET,POST,PUT and Delete
+	Layers:
+		Model: to be inhereted wit pydentic BaseModel
+			   todo_id, todo_title, todo_desc, userId, status_flag,created_on,
+			   
+		Data: to define todo related functions i.e. CRUD ops using above model
+		
+		Web: to define routes in this file using FastAPI
+
+Streamlit Client
+Input section in a Form
+List of todos with Edit/Delete functions
+
+
+python console client
+Nodejs app
+unit tests		
